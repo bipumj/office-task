@@ -1,0 +1,15 @@
+header {
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 30%);
+}
+
+.nav-link {
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.nav-link:hover {
+    color: green !important;
+}

@@ -1,0 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog-content {
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
