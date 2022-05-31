@@ -72,7 +72,7 @@ const Login = () => {
                         <div className="row g-0">
                             <div className="col-md-6 offset-md-3">
                                 <div className="form-container pt-5">
-                                    <h2 className='text-success text-start mb-4'>Log in Here</h2>
+                                    <h2 style={{ color: "#1E0A3C", fontSize: "52px" }} className='fw-bolder text-start mb-4'>Log in</h2>
                                     <Form onSubmit={handleLogin}>
 
                                         {/* <Form.Group className="mb-3 form-floating" >
@@ -104,15 +104,18 @@ const Login = () => {
                                         <p><Link to="#" onClick={handleResetPass} className='text-primary pe-auto text-decoration-none'>Forget Password?</Link> </p>
                                     </div>
                                     <div className='mt-3'>
-                                        <p>Are you new here? <Link to="/signup" className='text-primary pe-auto text-decoration-none'>Please Sign up</Link> </p>
+                                        <p>Create an Account <Link to="/signup" className='text-primary pe-auto text-decoration-none'>Please Sign up.</Link> </p>
                                     </div>
 
                                     <div className="d-flex split-container align-items-center justify-content-center position-relative pt-3">
                                         <div class="split-container__divider-text eds-text-bm eds-text-weight--heavy">or</div>
                                     </div>
 
-                                    <div className='text-center mt-5'>
-                                        <button className='btn btn-primary w-100 py-2' onClick={() => signInWithGoogle()}><FaGoogle className='me-3' /> Log in with Google</button>
+                                    <div className='text-center mt-4'>
+                                        <button className='btn btn-light border-info w-100 py-2' onClick={() => signInWithGoogle()}>Email me a login Link</button>
+                                    </div>
+                                    <div className='text-center mt-3'>
+                                        <button className='btn btn-light border-info w-100 py-2' onClick={() => signInWithGoogle()}><FaGoogle className='me-3' /> Sign in with Google</button>
                                     </div>
 
                                     <div className="other-log-container mt-4">

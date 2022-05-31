@@ -16,14 +16,15 @@ const Header = () => {
             <div className='container-fluid'>
                 <Navbar expand="lg" >
                     <Container>
-                        <Navbar.Brand as={Link} to={'/'} className='fw-bold fs-3 text-success'>LWR</Navbar.Brand>
+                        <Navbar.Brand as={Link} to={'/'} className='fw-bold fs-4 text-black'>The Postman24</Navbar.Brand>
+                        <input type="Search" className='me-5' placeholder="Search.." />
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-auto">
                                 <Nav.Link as={CustomLink} to={'/'} className='me-3 fw-bolder'>Home</Nav.Link>
-                                <Nav.Link as={CustomLink} to={'/blog'} className='me-3 fw-bolder'>Blogs</Nav.Link>
-                                <Nav.Link as={CustomLink} to={'/about'} className='fw-bolder me-3'>About Me</Nav.Link>
-                                <Nav.Link as={CustomLink} to={'/checkout'} className='me-3 fw-bolder'>Check Out</Nav.Link>
+                                <Nav.Link as={CustomLink} to={'/browse-events'} className='me-3 fw-bolder'>Browse Events</Nav.Link>
+                                <Nav.Link as={CustomLink} to={'/about'} className='fw-bolder me-3'>Organize</Nav.Link>
+                                <Nav.Link as={CustomLink} to={'/checkout'} className='me-3 fw-bolder'>Help</Nav.Link>
                                 {user?.uid ?
                                     <Nav.Link as={Link} to={'#'} className=' fw-bolder' onClick={handleSignOut}>Sign Out </Nav.Link>
                                     :

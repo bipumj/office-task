@@ -1,8 +1,3 @@
-# Learn With Rony
-
-Learn With Rony [Learn with rony](https://learn-with-rony-8475e.web.app/).
-
-## https://learn-with-rony-8475e.web.app/
 
 ## Features:
 
